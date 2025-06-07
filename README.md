@@ -1,7 +1,7 @@
 # Slowo
 > Prosta gra polegająca na zgadywaniu słów pięcioliterowych w co najwyżej 6 próbach.
 
-## Table of Contents
+## Spis treści
 * [Informacje Generalne](#informacje-generalne)
 * [Technologie](#technologie)
 * [Funkcje](#funkcje)
