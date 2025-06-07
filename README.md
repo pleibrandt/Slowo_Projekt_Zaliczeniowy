@@ -41,7 +41,7 @@ Program ten jest zdolny do:
 
 
 ## Zdjęcia
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./Slowo_Projekt_Zaliczeniowy/Screenshot.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
@@ -67,4 +67,4 @@ Możliwe ulepszenia:
 
 
 ## Kontakt
-Stworzone przez [@pleibrandt]
+Stworzone przez [@pleibrandt](https://github.com/pleibrandt)
