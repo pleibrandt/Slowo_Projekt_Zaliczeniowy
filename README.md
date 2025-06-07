@@ -6,7 +6,7 @@
 * [Technologie](#technologie)
 * [Funkcje](#funkcje)
 * [Zdjęcia](#zdjęcia)
-* [Jak uruchomić projekt?](#jak-uruchomić-projekt?)
+* [Jak uruchomić projekt](#jak-uruchomić-projekt)
 * [Inspiracja](#inspiracja)
 * [Możliwe ulepszenia](#możliwe-ulepszenia)
 * [Kontakt](#kontakt)
