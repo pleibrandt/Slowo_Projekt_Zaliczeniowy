@@ -1,89 +1,70 @@
-# Project Name
-> Outline a brief description of your project.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+# Slowo
+> Prosta gra polegająca na zgadywaniu słów pięcioliterowych w co najwyżej 6 próbach.
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Features](#features)
-* [Screenshots](#screenshots)
-* [Setup](#setup)
-* [Usage](#usage)
-* [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
-<!-- * [License](#license) -->
+* [Informacje Generalne](#informacje-generalne)
+* [Technologie](#technologie)
+* [Funkcje](#funkcje)
+* [Zdjęcia](#zdjecia)
+* [Jak uruchomić projekt?](#jak-uruchomic-projekt)
+* [Inspiracja](#inspiracja)
+* [Możliwe ulepszenia](#mozliwe-ulepszenia)
+* [Kontakt](#kontakt)
 
 
-## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## Informacje Generalne
+- Program ten polega na zgadywaniu pięciliterowych słów.
+- Użytkownik ma sześć prób, w których może zgadnąć dane słowo.
+- Za każdą nieudaną próbą gra informuje go o tym, czy użyte w danym podejściu litery:
+  1. znajdują się w słowie-odpowiedzi w odpowiednim miejscu (kolor zielony);
+  2. znajdują się w słowie-odpowiedzi, ale w innym miejscu (kolor żółty);
+  3. nie znajdują się w słowie-odpowiedzi (kolor czerwony).
+- Po wykorzystaniu wszystkich możiwych prób przez użytkownika, wyskakuje okienko z informacją o niepowodzeniu oraz tym jakie słowo było poprawne.
+- Za każdym razem kiedy użytkownik odgadnie dane słowo, zwiększa się liczba odgadniętych słów pod rząd oraz zostaje on nagrodzony adekwatną liczbą punktów
+- Na dole ekranu znajdue się okienko informujące o statusie danej litery (szare, zielone, żółte i czerwone)
+
+## Technologie
+Wykorzystene technologie:
+- Windows Forms (WinForms)
+- .Net 8.0
+- HTTP/REST + JSON (Web API)
+Wykorzystane API:
+- [Free Dictionary API](https://dictionaryapi.dev) twórca: [@meetDeveloper](https://github.com/meetDeveloper)
+- [Free Random Word Generator API](https://random-word-api.vercel.app)
 
 
-## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+## Funkcje
+Program ten jest zdolny do:
+- Wylosowania słowa w języku angielskim przy uruchomieniu jak i przy odgadnięciu poprzedniego słowa
+- Sprawdzenia czy dane słowo znajduje się w słowniku języka angielskiego
+- Sprawdzenia czy dane słowo nie przekracza lub nie jest krótsze od 5 liter
 
 
-## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
-
-
-## Screenshots
+## Zdjęcia
 ![Example screenshot](./img/screenshot.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
-## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
-
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
+## Jak uruchomić projekt?
+Wymagania wstępne:
+- Zainstalowany **.NET SDK 8.0 lub wyższy**
+- Visual Studio 2022+
+- System Windows
+Następnie sklonuj repozytorium.
 
 
-## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+## Inspiracja
+Inspiracją projektu była gra przeglądarkowa stworzona przez Josha Wardle’a o nazwie Wordle.
 
 
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
+## Możliwe ulepszenia
+Pod wieloma aspektami produkt ostateczny jest tym czym chciałem żeby był. Jednak nie oznacza to tego, że są rzeczy, których nie dało by się ulepszyć:
 
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
+Możliwe ulepszenia:
+- Ulepszenie aspektu wizualnego przez dodanie zdjęć lub zmienienie kolorystyki.
+- Dodanie użytkownikowi opcji zgadywania słów podanych przez niego.
+- Dodanie większego katalogu słów do zgadywania przez dodanie słów w języku Polskim jako dodatkowa opcja rozgrywki.
 
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
-
-
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+## Kontakt
+Stworzone przez [@pleibrandt]
