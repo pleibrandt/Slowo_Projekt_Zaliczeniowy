@@ -1131,6 +1131,7 @@
             wygrywajacy.Size = new Size(536, 25);
             wygrywajacy.TabIndex = 2;
             wygrywajacy.TextAlign = ContentAlignment.MiddleCenter;
+            wygrywajacy.Visible = false;
             // 
             // bocznyPanel
             // 
@@ -1235,7 +1236,7 @@
             ClientSize = new Size(982, 953);
             Controls.Add(glownyPanel);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Slowo";
             Load += Form1_Load;
             glownyPanel.ResumeLayout(false);
             glownyPanel.PerformLayout();
