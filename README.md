@@ -5,10 +5,10 @@
 * [Informacje Generalne](#informacje-generalne)
 * [Technologie](#technologie)
 * [Funkcje](#funkcje)
-* [Zdjęcia](#zdjecia)
-* [Jak uruchomić projekt?](#jak-uruchomic-projekt)
+* [Zdjęcia](#zdjęcia)
+* [Jak uruchomić projekt?](#jak-uruchomić-projekt?)
 * [Inspiracja](#inspiracja)
-* [Możliwe ulepszenia](#mozliwe-ulepszenia)
+* [Możliwe ulepszenia](#możliwe-ulepszenia)
 * [Kontakt](#kontakt)
 
 
