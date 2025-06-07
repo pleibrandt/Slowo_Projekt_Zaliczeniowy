@@ -41,7 +41,7 @@ Program ten jest zdolny do:
 
 
 ## Zdjęcia
-![Example screenshot](./Slowo_Projekt_Zaliczeniowy/Screenshot.png)
+![Example screenshot](./Screenshot.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
