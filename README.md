@@ -13,15 +13,15 @@
 
 
 ## Informacje Generalne
-- Program ten polega na zgadywaniu pięciliterowych słów.
+- Program ten polega na zgadywaniu pięcioliterowych słów.
 - Użytkownik ma sześć prób, w których może zgadnąć dane słowo.
 - Za każdą nieudaną próbą gra informuje go o tym, czy użyte w danym podejściu litery:
   1. znajdują się w słowie-odpowiedzi w odpowiednim miejscu (kolor zielony);
   2. znajdują się w słowie-odpowiedzi, ale w innym miejscu (kolor żółty);
   3. nie znajdują się w słowie-odpowiedzi (kolor czerwony).
-- Po wykorzystaniu wszystkich możiwych prób przez użytkownika, wyskakuje okienko z informacją o niepowodzeniu oraz tym jakie słowo było poprawne.
+- Po wykorzystaniu wszystkich możliwych prób przez użytkownika, wyskakuje okienko z informacją o niepowodzeniu oraz tym jakie słowo było poprawne.
 - Za każdym razem kiedy użytkownik odgadnie dane słowo, zwiększa się liczba odgadniętych słów pod rząd oraz zostaje on nagrodzony adekwatną liczbą punktów
-- Na dole ekranu znajdue się okienko informujące o statusie danej litery (szare, zielone, żółte i czerwone)
+- Na dole ekranu znajduje się okienko informujące o statusie danej litery (szare, zielone, żółte i czerwone)
 
 ## Technologie
 Wykorzystene technologie:
